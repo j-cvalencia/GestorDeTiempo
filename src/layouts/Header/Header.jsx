@@ -20,7 +20,11 @@ export const Header = () => {
       </div>
 
       <div id='opciones'>
-        <h2>Opciones</h2>
+        <button id='botonPlay'><i class="fa-solid fa-play"></i></button>
+        <button id='botonColaboracion'><i class="fa-solid fa-user-plus"></i></button>
+        <div id='divisor'></div>
+        <button id='botonAyuda'><i class="fa-regular fa-circle-question"></i></button>
+        <button id='botonConfiguracion'><i class="fa-solid fa-gear"></i></button>
       </div>
     </div>
   )

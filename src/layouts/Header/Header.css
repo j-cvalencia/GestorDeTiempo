@@ -1,5 +1,8 @@
 :root{
-  --color-principal: rgb(12, 98, 116);
+  --color-principal: rgb(214, 214, 214);
+  --color-bordes-principal: rgba(0, 0, 0, 0.5);
+  --color-bordes-secundario: rgba(0, 0, 0, 1);
+  --color-letra-principal: rgba(33, 33, 33, 0.854);
 }
 
 #header{
@@ -19,16 +22,17 @@
   width: 15%;
   text-align: center;
   height: 100%;
+  border-right: 1px solid var(--color-bordes-principal);
 }
 
 #tituloPosicion{
-  width: 15%;
+  width: 10%;
   text-align: center;
   height: 100%;
 }
 
 #pestañas{
-  width: 50%;
+  width: 55%;
   height: 100%;
   justify-content: start;
   padding: 15px;
@@ -42,7 +46,10 @@
   white-space: nowrap;
   font-size: 1vw;
   cursor: pointer;
-  font-weight: 800;
+  font-weight: 100;
+  border-right:1px solid var(--color-bordes-secundario);
+  color: var(--color-letra-principal);
+  padding: 5px;
 }
 #pestañas > ul > li:hover{
   color: rgb(147, 143, 143);
@@ -52,4 +59,79 @@
   width: 20%;
   height: 100%;
   text-align: center;
+  gap: 1.2vw;
+}
+#botonPlay{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 3px;
+  width: 3vw;
+  height: 3vw;
+  border-radius: 50%;
+  border: none;
+  box-shadow: 2px 2px 5px var(--color-bordes-principal);
+  background-color: green;
+  font-size: 1vw;
+  color: white;
+  cursor: pointer;
+}
+#botonPlay:hover{
+  box-shadow: 1px 1px 5px var(--color-bordes-principal);
+}
+#botonColaboracion{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 3px;
+  width: 3vw;
+  height: 3vw;
+  border-radius: 50%;
+  border: none;
+  box-shadow: 2px 2px 5px var(--color-bordes-principal);
+  font-size: 1vw;
+  color: green;
+  border: 2px solid green;
+  cursor: pointer;
+}
+#botonColaboracion:hover{
+  box-shadow: 1px 1px 5px var(--color-bordes-principal);
+}
+#divisor{
+  border: 1px solid var(--color-bordes-principal);
+  height: 100%;
+}
+#botonAyuda{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3vw;
+  height: 3vw;
+  border-radius: 50%;
+  border: none;
+  box-shadow: 2px 2px 5px var(--color-bordes-principal);
+  font-size: 1vw;
+  color: var(--color-letra-principal);
+  border: 2px solid var(--color-letra-principal);
+  cursor: pointer;
+}
+#botonAyuda:hover{
+  box-shadow: 1px 1px 5px var(--color-bordes-principal);
+}
+#botonConfiguracion{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3vw;
+  height: 3vw;
+  border-radius: 50%;
+  border: none;
+  box-shadow: 2px 2px 5px var(--color-bordes-principal);
+  font-size: 1vw;
+  color: var(--color-letra-principal);
+  border: 2px solid var(--color-letra-principal);
+  cursor: pointer;
+}
+#botonConfiguracion:hover{
+  box-shadow: 1px 1px 5px var(--color-bordes-principal);
 }

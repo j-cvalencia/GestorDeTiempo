@@ -1,3 +1,11 @@
+:root{
+  --color-principal: rgb(228, 216, 216);
+  --color-bordes-principal: rgba(0, 0, 0, 0.5);
+  --color-bordes-secundario: rgba(0, 0, 0, 1);
+  --color-letra-principal: rgba(33, 33, 33, 0.854);
+  --color-letra-hover: rgb(147, 143, 143);
+}
+
 *{
   margin: 0;
   padding: 0;

@@ -1,10 +1,3 @@
-:root{
-  --color-principal: rgb(214, 214, 214);
-  --color-bordes-principal: rgba(0, 0, 0, 0.5);
-  --color-bordes-secundario: rgba(0, 0, 0, 1);
-  --color-letra-principal: rgba(33, 33, 33, 0.854);
-}
-
 #header{
   display: flex;
   height: 10vh;

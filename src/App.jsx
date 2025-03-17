@@ -1,4 +1,5 @@
 import { Header } from './layouts/Header/Header'
+import { Aside } from './layouts/Aside/Aside'
 import './App.css'
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
   return (
     <>
       <Header />
+      <Aside/>
     </>
   )
 }

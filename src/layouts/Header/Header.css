@@ -1,0 +1,55 @@
+:root{
+  --color-principal: rgb(12, 98, 116);
+}
+
+#header{
+  display: flex;
+  height: 10vh;
+  background-color: var(--color-principal);
+  align-items: center;
+}
+
+#header > *{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#nombreApp{
+  width: 15%;
+  text-align: center;
+  height: 100%;
+}
+
+#tituloPosicion{
+  width: 15%;
+  text-align: center;
+  height: 100%;
+}
+
+#pestañas{
+  width: 50%;
+  height: 100%;
+  justify-content: start;
+  padding: 15px;
+}
+#pestañas > ul{
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+}
+#pestañas > ul > li{
+  white-space: nowrap;
+  font-size: 1vw;
+  cursor: pointer;
+  font-weight: 800;
+}
+#pestañas > ul > li:hover{
+  color: rgb(147, 143, 143);
+}
+
+#opciones{
+  width: 20%;
+  height: 100%;
+  text-align: center;
+}
